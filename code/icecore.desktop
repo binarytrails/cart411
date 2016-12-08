@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=icecore
+Exec=/home/pi/icecore/run.sh #change to where the script is 
+StartupNotify=false

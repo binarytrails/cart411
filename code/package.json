@@ -1,0 +1,15 @@
+{
+  "name": "icecore",
+  "version": "1.0.0",
+  "description": "core.ino should be uploaded to the arduino, rotary encoder and neopixel pins are indicated in the code.",
+  "main": "index.js",
+  "dependencies": {
+    "serialport": "^1.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
