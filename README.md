@@ -30,18 +30,18 @@ Concordia University
 
 ### Logic
 
-    A_D3    ?       
-    A_Dg    L_g     P_g
-    A_d15   ?       
-    A_d14   ?       
-    A_Ag    E_g     
-    A_A0    E_B     
-    A_A1    E_A     
+    A_s         R_USB
+    A_D3        L_s
+    A_Dg        L_g     P_g
+    A_Ag        E_g
+    A_A0        E_B
+    A_A1        E_A
     
-    R_g     P_g     
-    R_?     P_rx    
-    R_?     P_tx    
+    R_s         A_USB
+    R_g         P_g
+    R_8_tx      P_rx
+    R_10_rx     P_tx
     
-    L_p     P_p
-    L_g     P_g
-    L_s     ?
+    L_p         P_p
+    L_g         P_g     A_Dg
+    L_s         A_D3
