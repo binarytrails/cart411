@@ -18,8 +18,8 @@ Concordia University
     R Raspberry
     P Printer
     L Leds
-    P Power
-    M "rotational magnet" TODO fix name
+    P Power (max 5v 1Ma)
+    E Rotational encoded
     
     A analog
     D diginal
@@ -30,16 +30,18 @@ Concordia University
 
 ### Logic
 
-    A_D3 <-> ?
-    A_Dg <-> L_g <-> P_g
-    A_Ag <-> M_g
-    A_A0 <->
-    A_A1 <->
+    A_D3    ?       
+    A_Dg    L_g     P_g
+    A_d15   ?       
+    A_d14   ?       
+    A_Ag    E_g     
+    A_A0    E_B     
+    A_A1    E_A     
     
-    R_g <-> P_g
-    R_? <-> RX
-    R_? <-> Tx
+    R_g     P_g     
+    R_?     P_rx    
+    R_?     P_tx    
     
-    L_p <-> P_p (max=1mA)
-    L_g <-> P_g
-    L_s <-> 
+    L_p     P_p
+    L_g     P_g
+    L_s     ?
