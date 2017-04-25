@@ -7,3 +7,22 @@ CART 411
 Computation Arts
 Concordia University
 ```
+
+# Setup
+
+## Wires
+
+### Legend
+
+    A Arduino
+    R Raspberry
+    P Printer
+    L Leds
+    P Power
+    d Diginal
+
+### Logic
+
+    Ad3 <-> ?
+    ? <-> GND <-> L_GND <-> Power (max=1mA)
+    ...
