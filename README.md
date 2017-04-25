@@ -19,10 +19,27 @@ Concordia University
     P Printer
     L Leds
     P Power
-    d Diginal
+    M "rotational magnet" TODO fix name
+    
+    A analog
+    D diginal
+    
+    g ground
+    p positive
+    s serial
 
 ### Logic
 
-    Ad3 <-> ?
-    ? <-> GND <-> L_GND <-> Power (max=1mA)
-    ...
+    A_D3 <-> ?
+    A_Dg <-> L_g <-> P_g
+    A_Ag <-> M_g
+    A_A0 <->
+    A_A1 <->
+    
+    R_g <-> P_g
+    R_? <-> RX
+    R_? <-> Tx
+    
+    L_p <-> P_p (max=1mA)
+    L_g <-> P_g
+    L_s <-> 
